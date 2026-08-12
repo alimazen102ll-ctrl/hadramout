@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مندي حضرموت اليمن | الديوانية</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <!-- شريط التنقل -->
+    <header class="navbar">
+
+        <div class="brand-header">
+
+    <img
+        src="images/logo.png"
+        alt="حضرموت مطاعم اليمن"
+        class="brand-logo"
+    >
+
+    <div class="brand-text">
+        <h1>حضرموت</h1>
+        <p>مطاعم اليمن</p>
+    </div>
+
+</div>
+        <nav>
+            <a href="#home">الرئيسية</a>
+            <a href="#menu">المنيو</a>
+            <a href="#about">من نحن</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+
+        <button class="cart-btn">
+            🛒
+            <span id="cartCount">0</span>
+        </button>
+
+    </header>
+
+
+    <!-- الصفحة الرئيسية -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <span class="welcome">أهلاً وسهلاً بكم</span>
+
+            <div class="brand-header">
+
+    <img
+        src="images/logo.jpg"
+        alt="حضرموت مطاعم اليمن"
+        class="brand-logo"
+    >
+
+    <div class="brand-text">
+        <h1>حضرموت</h1>
+        <p>مطاعم اليمن</p>
+    </div>
+
+</div>
+                
+            <p>
+                مذاق حضرموت الأصيل في قلب الديوانية
+            </p>
+
+            <a href="#menu" class="menu-btn">
+                🍖 شاهد المنيو
+            </a>
+
+        </div>
+
+    </section>
+
+<div class="menu-search">
+
+    <span>🔍</span>
+
+    <input
+        type="text"
+        id="menuSearch"
+        placeholder="ابحث عن وجبة...">
+
+</div>
+
+    <!-- قسم المنيو -->
+    <section id="menu" class="menu-section">
+
+        <div class="section-title">
+            <span>🍽️</span>
+            <h2>منيو حضرموت</h2>
+            <p>اختار وجبتك المفضلة</p>
+        </div>
+
+<div class="menu-categories">
+
+    <button class="category-btn active" data-category="all">
+        الكل
+    </button>
+
+    <button class="category-btn" data-category="meat">
+        اللحوم
+    </button>
+
+    <button class="category-btn" data-category="chicken">
+        الدجاج
+    </button>
+
+    <button class="category-btn" data-category="appetizers">
+        المقبلات
+    </button>
+
+    <button class="category-btn" data-category="drinks">
+        المشروبات
+    </button>
+
+</div>
+
+<section id="menu" class="menu-section">
+
+    <div class="menu-container">
+
+        <!-- 1 - برمة لحم -->
+        <div class="menu-card" data-category="meat">
+            <div class="menu-image">
+                <img src="images/barma-laham.jpg" alt="برمة لحم">
+            </div>
+
+            <div class="menu-info">
+                <h3>برمة لحم</h3>
+                <p>برمة لحم على الطريقة الحضرمية</p>
+
+                <div class="menu-bottom">
+                    <span class="price">20,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 2 - مندي لحم -->
+        <div class="menu-card" data-category="meat">
+            <div class="menu-image">
+                <img src="images/mandi-laham.jpg" alt="مندي لحم">
+            </div>
+
+            <div class="menu-info">
+                <h3>مندي لحم</h3>
+                <p>مندي لحم على الطريقة الحضرمية</p>
+
+                <div class="menu-bottom">
+                    <span class="price">20,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 3 - حنيذ لحم -->
+        <div class="menu-card" data-category="meat">
+            <div class="menu-image">
+                <img src="images/hanith-laham.jpg" alt="حنيذ لحم">
+            </div>
+
+            <div class="menu-info">
+                <h3>حنيذ لحم</h3>
+                <p>لحم حنيذ بطعم حضرموت الأصيل</p>
+
+                <div class="menu-bottom">
+                    <span class="price">20,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 4 - مضغوط لحم -->
+        <div class="menu-card" data-category="meat">
+            <div class="menu-image">
+                <img src="images/masghout-laham.jpg" alt="مضغوط لحم">
+            </div>
+
+            <div class="menu-info">
+                <h3>مضغوط لحم</h3>
+                <p>أرز مضغوط مع لحم طازج</p>
+
+                <div class="menu-bottom">
+                    <span class="price">20,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 5 - مندي حبة دجاج -->
+        <div class="menu-card" data-category="chicken">
+            <div class="menu-image">
+                <img src="images/mandi-dajaj-full.jpg" alt="مندي حبة دجاج">
+            </div>
+
+            <div class="menu-info">
+                <h3>مندي حبة دجاج</h3>
+                <p>حبة دجاج كاملة مع الأرز</p>
+
+                <div class="menu-bottom">
+                    <span class="price">17,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 6 - مندي نصف حبة دجاج -->
+        <div class="menu-card" data-category="chicken">
+            <div class="menu-image">
+                <img src="images/mandi-dajaj-half.jpg" alt="مندي نصف حبة دجاج">
+            </div>
+
+            <div class="menu-info">
+                <h3>مندي نصف حبة دجاج</h3>
+                <p>نصف دجاجة مع الأرز البسمتي</p>
+
+                <div class="menu-bottom">
+                    <span class="price">9,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 7 - مندي مشكل -->
+        <div class="menu-card" data-category="meat">
+            <div class="menu-image">
+                <img src="images/mandi-mashkal.jpg" alt="مندي مشكل">
+            </div>
+
+            <div class="menu-info">
+                <h3>مندي مشكل</h3>
+                <p>تشكيلة من اللحوم والدجاج</p>
+
+                <div class="menu-bottom">
+                    <span class="price">29,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 8 - كتف لحم -->
+        <div class="menu-card" data-category="meat">
+            <div class="menu-image">
+                <img src="images/kataf-laham.jpg" alt="كتف لحم">
+            </div>
+
+            <div class="menu-info">
+                <h3>كتف لحم</h3>
+                <p>كتف لحم شهي بطريقة حضرمية</p>
+
+                <div class="menu-bottom">
+                    <span class="price">38,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 9 - مشروبات غازية -->
+        <div class="menu-card" data-category="drinks">
+            <div class="menu-image">
+                <img src="images/drinks.jpg" alt="مشروبات غازية">
+            </div>
+
+            <div class="menu-info">
+                <h3>مشروبات غازية</h3>
+                <p>اختيارك من المشروبات الغازية</p>
+
+                <div class="menu-bottom">
+                    <span class="price">500 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 10 - لبن حضرموت -->
+        <div class="menu-card" data-category="drinks">
+            <div class="menu-image">
+                <img src="images/laban-hadramout.jpg" alt="لبن حضرموت">
+            </div>
+
+            <div class="menu-info">
+                <h3>لبن حضرموت</h3>
+                <p>لبن بارد ومنعش</p>
+
+                <div class="menu-bottom">
+                    <span class="price">1,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 11 - مقبلات صغير -->
+        <div class="menu-card" data-category="appetizers">
+            <div class="menu-image">
+                <img src="images/appetizers-small.jpg" alt="مقبلات صغير">
+            </div>
+
+            <div class="menu-info">
+                <h3>مقبلات صغير</h3>
+                <p>تشكيلة مقبلات</p>
+
+                <div class="menu-bottom">
+                    <span class="price">3,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 12 - مقبلات كبير -->
+        <div class="menu-card" data-category="appetizers">
+            <div class="menu-image">
+                <img src="images/appetizers-large.jpg" alt="مقبلات كبير">
+            </div>
+
+            <div class="menu-info">
+                <h3>مقبلات كبير</h3>
+                <p>تشكيلة مقبلات بحجم كبير</p>
+
+                <div class="menu-bottom">
+                    <span class="price">5,000 د.ع</span>
+                    <button class="add-cart">إضافة للسلة</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+        
+    
+
+    <!-- من نحن -->
+    <section id="about" class="about-section">
+
+        <div class="section-title">
+            <span>👨‍🍳</span>
+            <h2>من نحن</h2>
+        </div>
+
+        <p>
+            مطاعم حضرموت اليمن تقدم لكم أشهى المأكولات اليمنية
+            بطعم حضرموت الأصيل، وبأجود المكونات.
+        </p>
+
+    </section>
+
+
+    <!-- التواصل -->
+    <section id="contact" class="contact-section">
+
+        <div class="section-title">
+            <span>📞</span>
+            <h2>تواصل معنا</h2>
+        </div>
+
+        <p>الديوانية – أم الخيل – شارع الحولي</p>
+
+        <div class="contact-buttons">
+
+            <a href="tel:07844448050">
+                📞 اتصال
+            </a>
+
+            <a href="https://wa.me/9647844448050">
+                💬 واتساب
+            </a>
+
+<div class="restaurant-map">
+    <iframe
+        src="https://www.google.com/maps?q=32.008132244326404,44.903301653968484&output=embed"
+        loading="lazy"
+        allowfullscreen>
+    </iframe>
+
+    <a
+        href="https://www.google.com/maps/search/?api=1&query=32.008132244326404,44.903301653968484"
+        target="_blank"
+        class="map-full-link">
+        عرض الخريطة كاملة 📍
+    </a>
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- سلة الطلبات -->
+<div id="cartOverlay" class="cart-overlay"></div>
+
+<aside id="cartSidebar" class="cart-sidebar">
+
+    <div class="cart-header">
+        <h2>🛒 سلة الطلبات</h2>
+
+        <button id="closeCart" class="close-cart">
+            ✕
+        </button>
+    </div>
+
+    <div id="cartItems" class="cart-items">
+        <p class="empty-cart">السلة فارغة</p>
+    </div>
+
+    <div class="cart-footer">
+
+      <div class="cart-total">
+    <span>المجموع:</span>
+    <strong id="cartTotal">0 د.ع</strong>
+</div>
+
+<button id="orderBtn" class="order-btn">
+    إرسال الطلب
+</button>
+    
+    </div>  
+<!-- نموذج الطلب -->
+<div id="orderForm" class="order-form">
+
+    <div class="order-form-header">
+        <h2>بيانات الطلب</h2>
+
+        <button id="closeOrderForm" type="button">
+            ✕
+        </button>
+    </div>
+
+    <div class="form-group">
+        <label>الاسم</label>
+        <input
+            type="text"
+            id="customerName"
+            placeholder="اكتب اسمك">
+    </div>
+
+    <div class="form-group">
+        <label>رقم الهاتف</label>
+        <input
+            type="tel"
+            id="customerPhone"
+            placeholder="07xxxxxxxxx">
+    </div>
+
+    <div class="form-group">
+        <label>طريقة استلام الطلب</label>
+
+        <select id="deliveryType">
+            <option value="توصيل">🛵 توصيل</option>
+            <option value="استلام من المطعم">🏪 استلام من المطعم</option>
+        </select>
+    </div>
+
+    <div class="form-group" id="addressGroup">
+        <label>العنوان</label>
+
+        <textarea
+            id="customerAddress"
+            placeholder="اكتب عنوان التوصيل"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label>ملاحظات</label>
+
+        <textarea
+            id="customerNotes"
+            placeholder="أي ملاحظات إضافية؟"></textarea>
+    </div>
+
+    <button id="confirmOrder" class="confirm-order">
+        تأكيد الطلب
+    </button>
+
+</div>
+
+    </div>
+
+</aside>
+
+    <footer>
+        <p>© 2026 مطاعم حضرموت اليمن - الديوانية</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+    <footer class="site-footer">
+
+    <p>
+        © 2026 حضرموت مطاعم اليمن
+   </p>
+     <p>
+   جميع الحقوق محفوظة©
+    </p>
+
+    <p class="designer-name">
+        تصميم وتطوير
+        <strong>Eng: Ali mazen</strong>
+    </p>
+
+    <a
+        href="https://wa.me/9647702914785"
+        target="_blank"
+        class="designer-contact">
+        💬 تواصل مع المصمم
+    </a>
+
+</footer>
+
+</body>
+</html>
+
